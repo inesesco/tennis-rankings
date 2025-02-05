@@ -1,0 +1,170 @@
+[
+    {
+        "name": "tournament_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of tournament in chronological order for that calendar year."
+    },
+    {
+        "name": "location",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Location match took place."
+    },
+    {
+        "name": "tournament_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of tournament where match took place."
+    },
+    {
+        "name": "match_date",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Date of match mm/dd/yyyy"
+    },
+    {
+        "name": "series",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of series"
+    },
+    {
+        "name": "court",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Type of court (outdoors or indoors)"
+    },
+    {
+        "name": "surface",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Type of surface (clay, hard, carpet or grass)"
+    },
+    {
+        "name": "round",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Round of match"
+    },
+    {
+        "name": "best_of",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Maximum number of sets playable in match"
+    },
+    {
+        "name": "winner",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Match winner"
+    },
+    {
+        "name": "loser",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Match loser"
+    },
+    {
+        "name": "winner_rank",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ATP Entry ranking of the match winner as of the start of the tournament"
+    },
+    {
+        "name": "loser_rank",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ATP Entry ranking of the match loser as of the start of the tournament"
+    },
+    {
+        "name": "winner_points",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ATP Entry points of the match winner as of the start of the tournament"
+    },
+    {
+        "name": "loser_points",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ATP Entry points of the match loser as of the start of the tournament"
+    },
+    {
+        "name": "winner_set1",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 1st set by match winner"
+    },
+    {
+        "name": "loser_set1",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 1st set by match loser"
+    },
+    {
+        "name": "winner_set2",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 2nd set by match winner"
+    },
+    {
+        "name": "loser_set2",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 2nd set by match loser"
+    },
+    {
+        "name": "winner_set3",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 3rd set by match winner"
+    },
+    {
+        "name": "loser_set3",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 3rd set by match loser"
+    },
+    {
+        "name": "winner_set4",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 4th set by match winner"
+    },
+    {
+        "name": "loser_set4",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 4th set by match loser"
+    },
+    {
+        "name": "winner_set5",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 5th set by match winner"
+    },
+    {
+        "name": "loser_set5",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of games won in 5th set by match loser"
+    },
+    {
+        "name": "winner_sets",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of sets won by match winner"
+    },
+    {
+        "name": "loser_sets",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Number of sets won by match loser"
+    },
+    {
+        "name": "comment",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Comment on the match (Completed, won through retirement of loser, or via Walkover)"
+    }
+]
